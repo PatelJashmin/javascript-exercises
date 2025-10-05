@@ -1,5 +1,11 @@
-const reverseString = function() {
-
+const reverseString = function(string) {
+    //using bracket notation - brute force
+    let reversedString = "";
+    for(let i = string.length-1; i>=0; i--) {
+        reversedString += string[i];
+    }
+    return reversedString;
+    // using split to convert it to array and then reverse array and join??
 };
 
 // Do not edit below this line
